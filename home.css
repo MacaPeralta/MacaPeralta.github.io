@@ -631,3 +631,6 @@ a.project:hover h3 { color: var(--accent); }
    on a light "paper" background, even in dark mode, to stay readable. */
 .project-body img { background: #ffffff; }
 [data-theme="dark"] .project-body img { border-color: #3a3c42; }
+
+.project-body__heading { align-self: stretch; margin-top: 1rem; font-size: 1.4rem; font-weight: 600; }
+.project-body .project-video { width: 100%; background: #000; }
